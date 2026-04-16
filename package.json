@@ -1,0 +1,33 @@
+{
+  "name": "goblin-whisperwind",
+  "version": "0.1.0",
+  "description": "Audio transcription",
+  "author": "Epsitec SA",
+  "contributors": [
+    "Samuel Loup <loup@epsitec.ch>"
+  ],
+  "license": "MIT",
+  "config": {
+    "xcraft": {
+      "commands": true
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@napi-rs/whisper": "^0.0.4",
+    "ws": "^8.18.3",
+    "xcraft-audify": "^2.0.0",
+    "xcraft-core-goblin": "^5.8.0",
+    "xcraft-core-cryo": "^2.34.0",
+    "xcraft-core-fs": "^2.8.0"
+  },
+  "devDependencies": {
+    "chai": "^5.2.0",
+    "mocha": "^11.2.2",
+    "xcraft-dev-prettier": "^2.0.0",
+    "xcraft-dev-rules": "^4.4.2"
+  },
+  "prettier": "xcraft-dev-prettier"
+}
