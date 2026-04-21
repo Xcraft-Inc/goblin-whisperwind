@@ -55,4 +55,11 @@ module.exports = [
     message: 'http ws port',
     default: 3000,
   },
+  {
+    type: 'input',
+    name: 'rtAudioBackend',
+    message:
+      'leave empty for unspecified, or choose between: core, alsa, pulse, wasapi, ds',
+    default: '',
+  },
 ];
