@@ -1,5 +1,8 @@
 'use strict';
 
+const path = require('node:path');
+const xFs = require('xcraft-core-fs');
+
 module.exports = [
   {
     type: 'input',
@@ -54,6 +57,15 @@ module.exports = [
     name: 'windServerPort',
     message: 'http ws port',
     default: 3000,
+  },
+  {
+    type: 'list',
+    name: 'audioModule',
+    message: 'select the default audio module (audify, naudiodon)',
+    choices: xFs
+      .ls(path.join(__dirname, 'lib/audio'), /\.js$/)
+      .map((mod) => mod.replace(/\.js$/, '')),
+    default: 'audify',
   },
   {
     type: 'input',
