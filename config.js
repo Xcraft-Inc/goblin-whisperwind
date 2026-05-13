@@ -71,7 +71,7 @@ module.exports = [
     type: 'input',
     name: 'audioBackend',
     message:
-      'leave empty for unspecified, or choose between: core, alsa, pulse, wasapi, ds',
+      '(for audify only) leave empty for unspecified, or choose between: core, alsa, pulse, wasapi, ds',
     default: '',
   },
 ];
