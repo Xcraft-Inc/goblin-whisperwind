@@ -57,7 +57,7 @@ module.exports = [
   },
   {
     type: 'input',
-    name: 'rtAudioBackend',
+    name: 'audioBackend',
     message:
       'leave empty for unspecified, or choose between: core, alsa, pulse, wasapi, ds',
     default: '',
