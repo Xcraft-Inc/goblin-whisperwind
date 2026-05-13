@@ -21,7 +21,8 @@
     "xcraft-audify": "^2.0.0",
     "xcraft-core-goblin": "^5.8.0",
     "xcraft-core-cryo": "^2.34.0",
-    "xcraft-core-fs": "^2.8.0"
+    "xcraft-core-fs": "^2.8.0",
+    "xcraft-naudiodon": "https://github.com/Xcraft-Inc/naudiodon"
   },
   "devDependencies": {
     "chai": "^5.2.0",
