@@ -22,7 +22,8 @@
     "xcraft-core-goblin": "^5.8.0",
     "xcraft-core-cryo": "^2.34.0",
     "xcraft-core-fs": "^2.8.0",
-    "xcraft-naudiodon": "https://github.com/Xcraft-Inc/naudiodon"
+    "xcraft-naudiodon": "https://github.com/Xcraft-Inc/naudiodon",
+    "xcraft-pipewire": "https://github.com/Xcraft-Inc/xcraft-pipewire"
   },
   "devDependencies": {
     "chai": "^5.2.0",
