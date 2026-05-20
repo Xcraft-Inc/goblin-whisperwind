@@ -23,7 +23,7 @@
     "xcraft-core-fs": "^2.8.0"
   },
   "optionalDependencies": {
-    "xcraft-naudiodon": "https://github.com/Xcraft-Inc/naudiodon",
+    "xcraft-naudiodon": "^2.4.0",
     "xcraft-pipewire": "https://github.com/Xcraft-Inc/xcraft-pipewire",
     "xcraft-audify": "^2.0.0"
   },
